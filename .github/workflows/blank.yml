@@ -34,3 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Java Version
+        run: java -version
+      - name: maven version
+        run: mvn --version
+      - name: Python Version
+        run: python --version
+      - name: docker version
+        run: docker -v
+      - name: Terraform Version
+        run: terraform --version
